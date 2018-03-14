@@ -5,6 +5,7 @@
     "avatar": "svg-1",
     "numClaps": 17,
     "skills": ["JavaScript", "React", "Angular"],
+    "gifts": ["gem", "coin", "sword"],
     "avatar2": {
       "skinPigment": "skin_f5a76e",
       "hairColor": "hair_bangs_2_black",
@@ -17,6 +18,7 @@
     "avatar": "svg-2",
     "numClaps": 19,
     "skills": ["Java", "C++", "SQL"],
+    "gifts": ["green-badge", "heart", "orange-badge"],
     "avatar2": {
       "skinPigment": "skin_ddc994",
       "hairColor": "hair_bangs_2_brown",
@@ -29,6 +31,7 @@
     "avatar": "svg-3",
     "numClaps": 16,
     "skills": ["iOS", "Android", "Javascript"],
+    "gifts": ["sparkles", "star", "yellow-badge"],
     "avatar2": {
       "skinPigment": "skin_98461a",
       "hairColor": "hair_bangs_2_black",
@@ -41,6 +44,7 @@
     "avatar": "svg-4",
     "numClaps": 20,
     "skills": ["Python", "Flask", "Django"],
+    "gifts": ["wizard-hat", "red-badge", "coin"],
     "avatar2": {
       "skinPigment": "skin_f5a76e",
       "hairColor": "hair_bangs_2_red",
