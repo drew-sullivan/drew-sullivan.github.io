@@ -5,17 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 footer i { margin: 25px; }
 footer .fa-linkedin { font-size: 30px; color: white !important; }
 .w3-cyan { color: white !important; }
+.portfolio-card { margin-top: 10px; margin-bottom: 10px; }
+.w3-card { padding: 16px; margin-bottom: 16px; }
 </style>
 <body class="w3-light-grey">
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="w3-content w3-card w3-margin-top" style="max-width:1400px;">
 
   <!-- The Grid -->
   <div class="w3-row-padding">
@@ -25,7 +28,7 @@ footer .fa-linkedin { font-size: 30px; color: white !important; }
 
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-container">
-          <h2>Drew Sullivan</h2>
+          <h2 class="w3-padding-16">Drew Sullivan</h2>
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-cyan"></i>Front-End Developer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-cyan"></i>Rocky River, OH</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-cyan"></i>drew.sullivan.dma@gmail.com</p>
@@ -108,7 +111,6 @@ footer .fa-linkedin { font-size: 30px; color: white !important; }
               <li>Built homepage for new B2B site to UX spec. using HTML/CSS/Less/Bootstrap/JavaScript/JQuery</li>
               <li>Wrote unit tests using Mocha and assured coverage using Istanbul on Node.js</li>
           </ul>
-          <hr>
         </div>
       </div>
 
@@ -128,6 +130,144 @@ footer .fa-linkedin { font-size: 30px; color: white !important; }
           <p>Doctor of Musical Arts</p>
           <hr>
         </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- Center -->
+  <div class="w3-row-padding">
+    <div class="w3-col">
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-container">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-cyan"></i>Projects</h2>
+        </div>
+      </div><br>
+    </div>
+  </div>
+  <!-- End Center -->
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-half">
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>Loan vs. Lease</b></h5>
+        <p>Tool for calculating the costs and benefits loaning or leasing a car</p>
+        <h6 class="w3-text-cyan">Technology</h6>
+        <ul>
+            <li>Angular 5</li>
+            <li>Angular Material</li>
+            <li>TypeScript</li>
+        </ul>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>QA Kudos</b></h5>
+        <p>Tool for managing PTO for the mobile QA team</p>
+        <h6 class="w3-text-cyan">Technology</h6>
+        <ul>
+            <li>Angular 5</li>
+            <li>TypeScript</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Bootstrap</li>
+            <li>Sass</li>
+        </ul>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>BudgChat</b></h5>
+          <p>Budgeting app using chat</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>React-Native</li>
+              <li>Flexbox</li>
+              <li>JavaScript</li>
+          </ul>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>I Heart Meetings</b></h5>
+          <p>Tool for analyzing time and money spent on meetings</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Chart.js</li>
+              <li>Google Calendar API</li>
+          </ul>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>Play it Faster</b></h5>
+          <p>Command Line tool for helping musicians practice more efficiently</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>Java</li>
+              <li>Unix Command Line</li>
+          </ul>
+      </div>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-half">
+
+      <div class="w3-container w3-card w3-white">
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Is The Build Down</b></h5>
+          <p>Communication tool for helping others know the status of Hyland's build</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>Angular 5</li>
+              <li>Angular Material</li>
+              <li>TypeScript</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>Hyland Helpers</b></h5>
+          <p>Social media app for gifting and creating 8-bit avatars</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>Angular 5</li>
+              <li>Angular Material</li>
+              <li>TypeScript</li>
+          </ul>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>The Cleveland Tech Survey</b></h5>
+          <p>Survey for revealing stats about being a developer in Cleveland</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>Python</li>
+              <li>Flask</li>
+              <li>Pandas</li>
+              <li>Bootstrap</li>
+              <li>SQLAlchemy</li>
+              <li>JavaScript</li>
+          </ul>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h5 class="w3-opacity"><b>Drew's Book Log</b></h5>
+          <p>An "about me" site with book recommendations</p>
+          <h6 class="w3-text-cyan">Technology</h6>
+          <ul>
+              <li>Java</li>
+              <li>Spring</li>
+              <li>JSP</li>
+              <li>Bootstrap</li>
+          </ul>
       </div>
 
     <!-- End Right Column -->
@@ -138,85 +278,11 @@ footer .fa-linkedin { font-size: 30px; color: white !important; }
 
   <!-- End Page Container -->
 </div>
-    
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-
-    <!-- Right Column -->
-    <div>
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-cyan"></i>Projects</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Developer II - Mobile and Front-End Developer / Hyland Software</b></h5>
-          <img src="https://imgur.com/a/CZ74SZp">
-          <ul>
-              <li>Built and designed kudos app for keeping track of gifts and PTO for QA, reducing PM workload</li>
-              <li>Built and designed social media site w/ gifting, customized 8-bit avatar, increasing team reliability</li>
-              <li>Managed team of developers and interns</li>
-          </ul>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Software Developer and Coach / I Heart Meetings</b></h5>
-          <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2017 - <span class="w3-tag w3-cyan w3-round">Current</span></h6>
-          <ul>
-              <li>Architected, designed, and built entire technology stack from the ground up using Python/Flask/JS</li>
-              <li>Reduced client meeting costs by up to 43%</li>
-              <li>Spoke about IHM technology at PyOhio software conference</li>
-              <li>Managed team of junior developers and coaches</li>
-          </ul>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Software Developer / DecisionDesk</b></h5>
-          <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - July 2017</h6>
-          <ul>
-              <li>Implemented GitFlow Process, eliminating bug overwriting after new releases</li>
-              <li>Spearheaded changes to UX/UI, yielding a system-wide initiative for improvement</li>
-          </ul>
-          <br>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Development Contractor / Dealer Tire</b></h5>
-          <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - Jan 2017</h6>
-          <ul>
-              <li>Built homepage for new B2B site to UX spec. using HTML/CSS/Less/Bootstrap/JavaScript/JQuery</li>
-              <li>Wrote unit tests using Mocha and assured coverage using Istanbul on Node.js</li>
-          </ul>
-          <hr>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-cyan"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Tech Elevator
-</b></h5>
-          <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2016 - Aug 2016</h6>
-          <p>Certificate of Completion, Java Web Development</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Cleveland Institute of Music
-</b></h5>
-          <h6 class="w3-text-cyan"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2011 - Aug 2016</h6>
-          <p>Doctor of Musical Arts</p>
-          <hr>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-
-  <!-- End Grid -->
-  </div>
-
-  <!-- End Page Container -->
-    <img src="drew-sullivan.github.io/Screen Shot 2018-04-26 at 5.53.22 PM.png" >
+<!-- <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <img src="https://imgur.com/a/DQMZorc" >
     <img src="drew-sullivan.github.io/1c177a_326906493f594278bb4ea3eb3f61fdc5_mv2.png" >
+
     <img src="drew-sullivan.github.io/1c177a_346fe81c1de94c48890a7164d9fd6fbb_mv2_d_1366_1500_s_2.png" >
     <img src="drew-sullivan.github.io/1c177a_99d9168504714c79bb04bf29348e210a_mv2.png" >
     <img src="drew-sullivan.github.io/1c177a_ceda75649e40404db344a209096e2f79_mv2.png" >
@@ -225,14 +291,13 @@ footer .fa-linkedin { font-size: 30px; color: white !important; }
     <img src="drew-sullivan.github.io/Screen Shot 2018-04-26 at 5.56.05 PM.png" >
     <img src="drew-sullivan.github.io/Screen Shot 2018-04-26 at 5.57.22 PM.png" >
     <img src="drew-sullivan.github.io/Screen Shot 2018-04-26 at 6.32.48 PM.png" >
-</div>
-    
-    
-    
+</div> -->
 
 <footer class="w3-container w3-cyan w3-center w3-margin-top">
   <a href="https://www.linkedin.com/in/drew-sullivan"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
